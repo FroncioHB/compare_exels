@@ -1,13 +1,14 @@
-# compare_exels - Streamlit
-Aplicación web para comparar dos archivos Excel y listar diferencia, duplicados, etc
+# Excel Compare - Streamlit App
+
+Una aplicación web para comparar archivos Excel y encontrar diferencias por clave.
 
 ## Características
-- Interfaz web con Streamlit
+
+- Interfaz web intuitiva con Streamlit
 - Comparación de archivos Excel por clave
-- Mapeo de claves entre Excels
-- Comparación 1:1 o por selección de campos
-- Mapeo de campos a comparar 
+- Resaltado de diferencias
 - Generación de reportes en Excel
+- Configuración mediante variables de entorno
 
 ## Instalación
 
@@ -28,7 +29,6 @@ Aplicación web para comparar dos archivos Excel y listar diferencia, duplicados
    ```
 5. Confirma que está activado (verás (venv) al inicio de la línea de comandos)
 
-
 -----------------------------
 
 1. Clona el repositorio
@@ -37,6 +37,7 @@ Aplicación web para comparar dos archivos Excel y listar diferencia, duplicados
    ```bash
    pip install -r requirements.txt
    ```
+
 
 ## Uso
 
